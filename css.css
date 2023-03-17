@@ -1,0 +1,156 @@
+
+/* Estilo body */
+.body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+/* Estilo header */
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #294429;
+    color: white;
+ 
+ 
+  }
+  
+  /* Incremento h1 */
+  header h1 {
+    font-size: 40px;
+    color:blueviolet
+  }
+  /*Estilo lista */
+dt {
+font-weight: bold;
+font-size: 18px;
+
+}
+ 
+ /* Estilo NAVIGATION BAR */
+.navbar {
+  overflow: hidden; 
+  background-color: #333; 
+}
+
+
+/* Tamaño COLUMNA */
+* {
+  box-sizing: border-box;
+}
+
+/* COLUMNA container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Sidebar/columna izquierda */
+.side {
+  flex: 30%; 
+  background-color: #f1f1f1; 
+  padding: 20px; 
+}
+
+/* Columna principal */
+.main {
+  flex: 70%; 
+  background-color: white; 
+  padding: 20px; 
+}
+
+/* Responsive layout*/
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+.footer {
+  padding: 20px; 
+  text-align: center; 
+  background: #ddd; 
+}
+
+/* GRID */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+
+.containerTab {
+  padding: 20px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+/*Boton dropdown*/
+.btn {
+  background-color: #2196F3;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+/* The container <div> */
+.dropdown {
+  position: absolute;
+  display: inline-block;
+}
+
+/* Dropdown Contenido (Oculto) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links Externos dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.btn:hover, .dropdown:hover .btn  {
+  background-color: #0b7dda;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="/js.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="header">
+        <h1>FEDERICO CORTÉS</h1>
+        <h2>Dr. en Letras</h2>
+        <p>Especialidad: Teoría literaria y Humanidades Digitales  </p>
+      
+    </div>
+    
+    <button class="btn">LINKS EXTERNOS</button>
+    <div class="dropdown">
+      <button class="btn" style="border-left:1px solid navy">
+        <i class="fa fa-caret-down"></i>
+      </button>
+
+      <div class="dropdown-content">
+        
+        <a href="https://www.conicet.gov.ar/new_scp/detalle.php?id=53201&datos_academicos=yes" target="_blank">CONICET</a> 
+        <a href="https://orcid.org/0000-0003-1678-1262" target="_blank">ORCID</a> 
+        <a href="https://www.memoria.fahce.unlp.edu.ar/perfiles/1877CortesF" target="_blank">UNLP</a> 
+
+
+      </div>
+    </div>
+        
+        <div class="main">
+            <!--GRID 3 COLUMNAS-->
+<div class="row">
+    <div class="column" onclick="openTab('b1');" style="background:rgb(194, 143, 34);">Formación Académica</div>
+    <div class="column" onclick="openTab('b2');" style="background:rgb(224, 171, 26);">Experiencia Laboral</div>
+    <div class="column" onclick="openTab('b3');" style="background:rgb(240, 193, 93);">Competencias </div>
+  </div>
+  
+  <!-- Expanding GRID oculto-->
+  <div id="b1" class="containerTab" style="display:none;background:rgb(194, 143, 34)">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+    <h2>Títulos</h2>
+    
+    <dl>
+      <dt>Doctor en Letras - UNLP (2022)</dt>
+        <dd>Completo. Título tesis doctoral: "Maurice Blanchot en la crítica literaria argentina: recepción y resistencia"</dd>
+    </dl>
+
+    <dl>
+      <dt>Licenciado en Letras - UNLP (2015)</dt>
+        <dd>Completo. Título tesina de licenciatura: "La interrupción como teoría de la literatura</dd>
+      </dl>
+    
+    <h2>Carreras en curso</h2>
+    <dl>
+      <dt>Diplomatura en Humanidades digitales - UCES</dt>
+        <dd>Inicio: 2023</dd>
+    
+      <dt>Especialización en Gestión de Información Científica y Tecnológica - UNLP</dt>
+        <dd>Inicio: 2023</dd>
+    </dl>
+
+    
+  </div>
+ 
+  <div id="b2" class="containerTab" style="display:none;background:rgb(224, 171, 26)">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+    
+    <h2>Becas</h2>
+    <dl>
+      <dt>Becario doctoral de CONICET (2018-2023)</dt>
+        <dd>Tareas de investigación en el Instituto de Investigaciones en Humanidades y Ciencias Sociales (UNLP)</dd>
+    </dl>
+    <dl>
+      <dt>Becario Erasmus+ (2020-2021)</dt>
+        <dd>Tareas de investigación y docencia en la Universidad de Wuppertal (Alemania)</dd>
+    </dl>
+    
+    <h2>Docencia</h2>
+    <dl>
+      <dt>Ayudante en la materia Epistemología e Historia de la Física</dt>
+        <dd>Tareas de docencia en el profesorado en Nivel Medio de Física (Universidad Nacional de Rio Negro)</dd>
+    </dl>
+    <dl>
+      <dt>Ayudante en la cátedra Metodología de la Investigación Literaria (2015-2019)</dt>
+        <dd>Tareas de docencia en el profesorado en Letras (Universidad Nacional de la Plata)</dd>
+    </dl>   
+    
+  </div>
+  
+
+  <div id="b3" class="containerTab" style="display:none;background:rgb(240, 193, 93)">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">x</span>
+  <h2>Idiomas</h2>
+  
+  <dl>
+    <dt>Inglés</dt>
+      <dd>Nivel avanzado</dd>
+  </dl>
+  
+  <dl>
+    <dt>Francés</dt>
+      <dd>Nivel intermedio</dd>
+  </dl>
+  
+  <dl>
+    <dt>Alemán</dt>
+      <dd>Nivel intermedio</dd>
+  </dl>
+
+  <h2>Otros cursos</h2>
+  <dl> 
+    <dt>Primera etapa de #seprogramar (Argentina Programa 4.0)</dt>
+      <dd>Completo y aprobado</dd>
+  </dl>
+
+  <dl> 
+    <dt>Primeros pasos del desarrollo front-end (TICMAS)</dt>
+      <dd>En curso</dd>
+  </dl>
+
+  <dl> 
+    <dt>Representación y organización del conocimiento de dominios científicos (UNLP)</dt>
+      <dd>En curso</dd>
+  </dl>
+  
+  </div>
+
+    </div>
+  </div>
+    </div>
+
+    <div class="footer">
+        <h2>Contacto</h2>
+        <a href="mailto:fede.gcortes@gmail.com" target="_top">Email</a>
+
+    </div>
+
+
+</body>
+</html>
